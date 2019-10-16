@@ -497,7 +497,7 @@ UI:ip-whitelisting:
 Multiprovisioning:
   <<: *test_template
   script:
-    - /mist.tests/prepare_env.py -k --stop --tags=multi /mist.tests/misttests/multiprovisioning/gui/features
+    - /mist.tests/prepare_env.py -k --tags=multi /mist.tests/misttests/multiprovisioning/gui/features
   artifacts:
     paths:
       - js_console.log
