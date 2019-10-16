@@ -495,7 +495,7 @@ UI:ip-whitelisting:
   retry: 1
 
 MULTIPROVISIONING:
-  << *test_template
+  <<: *test_template
   script:
     - /mist.tests/prepare_env.py -k --stop --tags=$TEST /mist.tests/misttests/multiprovisioning/gui/features
   artifacts:
