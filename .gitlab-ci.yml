@@ -494,10 +494,10 @@ UI:ip-whitelisting:
   <<: *ui_test_template
   retry: 1
 
-Multiprovisioning:
+.multiprovisioning_test_template: &multiprovisioning_test_template
   <<: *test_template
   script:
-    - /mist.tests/prepare_env.py -k --stop --tags=multi /mist.tests/misttests/multiprovisioning/gui/features
+    - /mist.tests/prepare_env.py -k --tags=$TEST /mist.tests/misttests/multiprovisioning/gui/features
   artifacts:
     paths:
       - js_console.log
@@ -508,6 +508,9 @@ Multiprovisioning:
   tags:
     - chrome
   when: manual
+
+MP:multiprovisioning-1: *multiprovisioning_test_template
+MP:multiprovisioning-2: *multiprovisioning_test_template
 
 #################### UNDEPLOY STAGE ####################
 
