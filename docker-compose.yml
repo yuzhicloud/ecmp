@@ -201,6 +201,15 @@ services:
     expose:
       - 8086
 
+  wsproxy:
+    #image: mist/not-ready-yet
+    build: /home/eis/work/wsproxy/
+    command: python3 wsproxy.py
+    # expose:
+    #   - 8764
+    ports:
+      - 8764:8764
+
 volumes:
   elasticsearch: {}
   influxdb: {}
