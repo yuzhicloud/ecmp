@@ -194,21 +194,17 @@ services:
       - 8041:8080
 
   huproxy:
-    image: tblyler/huproxy
-    command: ./huproxy --listen 0.0.0.0:8086
+    image: mist/huproxy:new
+    command: /app --listen 0.0.0.0:8086
     environment:
       MONGO_URI: mongodb://mongodb:27017
     expose:
       - 8086
 
   wsproxy:
-    #image: mist/not-ready-yet
-    build: /home/eis/work/wsproxy/
-    command: python3 wsproxy.py
-    # expose:
-    #   - 8764
-    ports:
-      - 8764:8764
+    image: mist/wsproxy
+    expose:
+      - 8764
 
 volumes:
   elasticsearch: {}
