@@ -194,7 +194,7 @@ services:
       - 8041:8080
 
   huproxy:
-    image: mist/huproxy:new
+    image: mist/huproxy
     command: /app --listen 0.0.0.0:8086
     environment:
       MONGO_URI: mongodb://mongodb:27017
