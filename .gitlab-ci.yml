@@ -518,8 +518,8 @@ UI:ip-whitelisting:
 
 MP:aliyun-machine-create: *multiprovisioning_test_template
 MP:azure-machine-create: *multiprovisioning_test_template
-MP:digital-machine-create: *multiprovisioning_test_template
-MP:ec2--machine-create: *multiprovisioning_test_template
+MP:digital-ocean-machine-create: *multiprovisioning_test_template
+MP:ec2-machine-create: *multiprovisioning_test_template
 MP:gce-machine-create: *multiprovisioning_test_template
 MP:kubevirt-machine-create: *multiprovisioning_test_template
 MP:kvm-machine-create: *multiprovisioning_test_template
