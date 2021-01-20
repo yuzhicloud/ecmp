@@ -1,4 +1,4 @@
-# YuzhiCloud Elastic Cloud Management Platform - Community Edition
+# YuzhiCloud Elastic Cloud Management Platform  
 
 Mist is an open source platform for managing heterogeneous computing 
 infrastructure, aka a Multi-Cloud Management Platform.
@@ -13,28 +13,7 @@ Insights. They are available for purchase at __https://mist.io__. Paid support
 plans are available for any edition.
 
 <img src="https://mist.io/landing/images/frontpage/home-dashboard.png" width="768">
-
-# Who needs Mist?
-
-1. Organizations that depend on hybrid or multi-cloud infrastructure
-2. Organizations that provide infrastructure resources to their users on a self-service fashion
-
-They often end up building silos of distinct tools, processes & teams for each 
-supported platform, introducing operational complexities which can affect both 
-security and efficiency.
-
-As the heterogeneity increases, it's becoming increasingly difficult to
-- train users
-- set access control rules
-- set governance policies like quotas and other constraints
-- audit usage
-- monitor/optimize costs
-- automate complex deployments
-- set up metering & billing
-
-Mist provides a unified way to operate, monitor & govern these resources. The 
-mission statement of the Mist platform is to help commoditize computing by 
-alleviating vendor lock-in. 
+ 
 
 # Features
 
