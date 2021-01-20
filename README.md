@@ -16,7 +16,7 @@ plans are available for any edition.
  
 
 # Features
-
+ 
 - Instant visibility of all the available resources across clouds, grouped by tags
 - Instant reporting/estimation of the current infrastructure costs
 - Compare current & past costs, correlate with usage, provide right-sizing recommendations (EE/HS only)
