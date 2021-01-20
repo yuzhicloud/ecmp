@@ -366,4 +366,4 @@ effect
 
     ./restart.sh api
 
-The above instructions for running and managing Mist apply.
+The above instructions for running and managing ecmp apply.
