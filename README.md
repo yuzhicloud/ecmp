@@ -1,4 +1,4 @@
-# Mist Cloud Management Platform - Community Edition
+# YuzhiCloud Elastic Cloud Management Platform - Community Edition
 
 Mist is an open source platform for managing heterogeneous computing 
 infrastructure, aka a Multi-Cloud Management Platform.
